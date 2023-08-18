@@ -17,7 +17,7 @@ const Banner = () => {
 						We Provide Electric Services For Industrial Project
 					</p>
 					<h1 className="text-6xl my-5">We Are Professional Quality Services</h1>
-					<button className="px-6 py-3 bg-orange text-black text-xl font-semibold">Our Services</button>
+					<button className="px-6 py-3 bg-orange text-midnightBlue text-xl font-bold">Our Services</button>
 				</div>
 			</div>
 		</section>
