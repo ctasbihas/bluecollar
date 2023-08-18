@@ -13,7 +13,7 @@ module.exports = {
         mediumGray: '#7E7E7E',
       },
       fontFamily: {
-        'jetbrains': ['"JetBrains Mono"', 'monospace'],
+        'mulish': ["Mulish"],
       }
     },
   },

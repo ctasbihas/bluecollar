@@ -14,9 +14,9 @@ const Contact = ({ icon, title, contactInfo }) => {
 					height={24}
 				/>
 			</div>
-			<div>
-				<h6 className="text-lg font-bold">{title}</h6>
-				<p className="text-base">{contactInfo}</p>
+			<div className="flex flex-col">
+				<span className="text-xl font-bold">{title}</span>
+				<span className="leading-none text-lg font-light">{contactInfo}</span>
 			</div>
 		</div>
 	);
@@ -78,35 +78,35 @@ const Navbar = () => {
 					</div>
 				</div>
 				{/* Header */}
-				<div className="px-40 py-3 flex items-center justify-between">
+				<div className="px-40 py-3 flex items-center justify-between my-5">
 					<div className="flex items-center gap-2">
 						<Image
 							src="/assets/icons/Logo.png"
 							loading="lazy"
 							alt=""
-							width={46}
-							height={46}
+							width={40}
+							height={40}
 						/>
-						<h4>
+						<h4 className="text-3xl font-extrabold text-midnightBlue">
 							BlueCo<span className="text-orange">ll</span>ar
 						</h4>
 					</div>
 					<div className="flex gap-10">
 						<Contact
 							icon="mail"
-							title="Mail us"
+							title="Mail Us"
 							contactInfo="ctasbihas@gmail.com"
 						/>
 						<Contact
 							icon="phone"
-							title="Call us"
+							title="Call Us"
 							contactInfo="+8801642399394"
 						/>
 					</div>
 				</div>
 			</header>
 			{/* Menu bar */}
-			<nav className="mx-40 bg-orange px-3 py-3 text-xl flex justify-between">
+			<nav className="mx-40 z-20 relative bg-orange px-3 py-3 text-xl flex justify-between">
 				<ul className="flex items-center gap-8">
 					<li>
 						<Link href="/">Home</Link>
