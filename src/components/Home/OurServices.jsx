@@ -41,7 +41,7 @@ const OurServices = () => {
 		},
 	];
 	return (
-		<section className="bg-[#F4F4F4] mt-28 pt-20 text-center">
+		<section className="bg-[#F4F4F4] mt-28 py-20 text-center">
 			<p className="inline-flex items-center text-midnightBlue gap-2">
 				<Image
 					src="/assets/icons/sectionIcon.svg"
