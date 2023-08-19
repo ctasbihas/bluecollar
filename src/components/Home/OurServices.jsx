@@ -23,7 +23,7 @@ const OurServices = () => {
 		},
 		{
 			id: 4,
-			icon: "/assets/icons/SecuritySystemIcon.svg",
+			icon: "/assets/icons/securitySystemIcon.svg",
 			service: "Security System",
 			desc: "Sagittis Nulla facillisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.",
 		},
