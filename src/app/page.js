@@ -4,6 +4,7 @@ import Choose from "@/components/Home/Choose";
 import Gallery from "@/components/Home/Gallery";
 import MainServices from "@/components/Home/MainServices";
 import OurServices from "@/components/Home/OurServices";
+import Testimonial from "@/components/Home/Testimonial";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<OurServices />
 			<Choose />
 			<Gallery />
+			<Testimonial />
 		</main>
 	);
 }
