@@ -8,6 +8,7 @@ import Testimonial from "@/components/Home/Testimonial";
 import Clients from "../components/Home/Clients";
 import Pricing from "@/components/Home/Pricing";
 import Blogs from "@/components/Home/Blogs";
+import SubscribeForm from "@/components/Home/SubscribeForm";
 
 export default function Home() {
 	return (
@@ -22,6 +23,7 @@ export default function Home() {
 			<Clients />
 			<Pricing />
 			<Blogs />
+			<SubscribeForm />
 		</main>
 	);
 }

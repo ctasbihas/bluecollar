@@ -45,7 +45,7 @@ const Blogs = () => {
 							April 2, 2024
 						</p>
 					</div>
-					<div className="text-left px-5">
+					<div className="text-left px-5 pb-5">
 						<h4 className="text-3xl text-midnightBlue font-bold">Improve Workflow With BlueCollar Construction</h4>
 						<p className="text-mediumGray text-lg">
 							Pellentesque vehicula eros neque, maximus mattis est
@@ -84,7 +84,7 @@ const Blogs = () => {
 							April 2, 2024
 						</p>
 					</div>
-					<div className="text-left px-5">
+					<div className="text-left px-5 pb-5">
 						<h4 className="text-3xl text-midnightBlue font-bold">Understanding Your Home&apos;s Electrical Capacity</h4>
 						<p className="text-mediumGray text-lg">
 							Pellentesque vehicula eros neque, maximus mattis est
