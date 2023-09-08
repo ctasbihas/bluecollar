@@ -6,6 +6,7 @@ import MainServices from "@/components/Home/MainServices";
 import OurServices from "@/components/Home/OurServices";
 import Testimonial from "@/components/Home/Testimonial";
 import Clients from "../components/Home/Clients";
+import Pricing from "@/components/Home/Pricing";
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<Gallery />
 			<Testimonial />
 			<Clients />
+			<Pricing />
 		</main>
 	);
 }

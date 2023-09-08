@@ -1,0 +1,45 @@
+[
+	{
+		"id": 1,
+		"plan": "Basic Plan",
+		"price": 599,
+		"features": [
+			"Electrical Service",
+			"Distributions Power Systems",
+			"High & Medium Voltages",
+			"Industrial Control System",
+			"Switch Installation",
+			"Generator Installations",
+			"Innovative Construction"
+		]
+	},
+	{
+		"id": 2,
+		"plan": "Standard",
+		"price": 699,
+		"features": [
+			"PLC Controls",
+			"Conveyor Systems",
+			"Wiring Renovations",
+			"Electric Water Heater Repair",
+			"Service & Panel Upgrades",
+			"Efficient Lighting Solutions",
+			"Site Lighting"
+		],
+        "popular": true
+	},
+	{
+		"id": 3,
+		"plan": "Professional",
+		"price": 799,
+		"features": [
+			"Cable Tray Installations",
+			"Wiring Upgrades",
+			"Energy Lighting Solutions",
+			"Emergency Generating",
+			"Pools And Hot Tubs",
+			"Air Conditioning Units",
+			"Generating Systems"
+		]
+	}
+]
